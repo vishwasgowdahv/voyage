@@ -9,7 +9,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list1.jfif" alt="" />
+                <img src="public/assets/images/list1.jfif" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>
@@ -38,7 +38,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list2.jfif" alt="" />
+                <img src="public/assets/images/list2.jfif" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>
@@ -70,7 +70,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list3.webp" alt="" />
+                <img src="public/assets/images/list3.webp" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>
@@ -104,7 +104,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list4.jpg" alt="" />
+                <img src="public/assets/images/list4.jpg" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>
@@ -137,7 +137,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list5.jfif" alt="" />
+                <img src="public/assets/images/list5.jfif" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>
@@ -167,7 +167,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list6.jpg" alt="" />
+                <img src="public/assets/images/list6.jpg" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>
@@ -203,7 +203,7 @@ export default function Listings() {
 
         <div className={styles.list}>
             <div className={styles.top}>
-                <img src="src/assets/images/list7.jfif" alt="" />
+                <img src="public/assets/images/list7.jfif" alt="" />
             </div>
             <div className={styles.bottom}>
                 <div className={styles.badge}>

@@ -6,22 +6,22 @@
 }
 @font-face {
     font-family: clash;
-    src: url('src/assets/fonts/clash.ttf');
+    src: url('public/assets/fonts/clash.ttf');
 }
 @font-face {
     font-family: quilon;
-    src: url('src/assets/fonts/Quilon.ttf');
+    src: url('public/assets/fonts/Quilon.ttf');
 }
 @font-face {
     font-family: cabinet;
-    src: url('src/assets/fonts/CabinetGrotesk-Variable.ttf');
+    src: url('public/assets/fonts/CabinetGrotesk-Variable.ttf');
 }
 @font-face {
     font-family: titan;
-    src: url('src/assets/fonts/TitanOne-Regular.ttf');
+    src: url('public/assets/fonts/TitanOne-Regular.ttf');
 }
 @font-face {
     font-family: nunito;
-    src: url('src/assets/fonts/Nunito-VariableFont_wght.ttf');
+    src: url('public/assets/fonts/Nunito-VariableFont_wght.ttf');
 }
 

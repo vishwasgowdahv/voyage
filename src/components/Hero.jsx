@@ -9,10 +9,10 @@ export default function Hero() {
         </div>
         <div className={styles.right}>
           <div className={styles.img1}>
-            <img src="src/assets/images/sk2.png" alt="" />
+            <img src="public/assets/images/sk2.png" alt="" />
           </div>
           <div className={styles.img2}>
-            <img src="src/assets/images/mob-1.png" alt="" />
+            <img src="public/assets/images/mob-1.png" alt="" />
           </div>
         </div>
         

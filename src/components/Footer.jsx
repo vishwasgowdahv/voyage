@@ -29,14 +29,14 @@ export default function Footer() {
             <h1>CONNECT WITH US</h1>
             </div>
            <div className={styles.lists}>
-          <img src="src/assets/images/instagram.svg" alt="" />
-          <img src="src/assets/images/twitter.svg" alt="" />
-          <img src="src/assets/images/youtube.svg" alt="" />
-          <img src="src/assets/images/linkedin.svg" alt="" />
+          <img src="public/assets/images/instagram.svg" alt="" />
+          <img src="public/assets/images/twitter.svg" alt="" />
+          <img src="public/assets/images/youtube.svg" alt="" />
+          <img src="public/assets/images/linkedin.svg" alt="" />
            </div>
         </div>
         </div>
-        
+         
       </div>
     </>
   )
