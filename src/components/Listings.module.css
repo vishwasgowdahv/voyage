@@ -1,0 +1,83 @@
+
+.heading{
+padding: 60px 30px;
+display: flex;
+justify-content: center;
+}
+.heading h1{
+font-size: 60px;
+font-family: titan;
+/* color: #ff4500; */
+}
+
+
+.listings{
+    font-family: nunito;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,330px);
+    gap: 50px;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+.list{
+    border: .5px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+.list .top{
+    display: flex;
+    justify-content: center;
+}
+.list .top img{
+    border-radius: 10px;
+    height: 230px;
+    width: 310px;
+    object-fit: cover;
+}
+.bottom{
+   padding: 0px 10px;
+}
+.bottom .badge{
+    padding: 8px 5px;
+}
+.bottom .badge h4{
+    text-transform: uppercase;
+    font-size: 11px;
+    border: .5px solid black;
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.header{
+    padding: 10px;
+    font-weight: 900;
+}
+.bottom .desc{
+    padding: 0px 0px 0px 10px;
+    font-size: 15px;
+}
+.info{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .btns{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    color: orangered;
+    cursor: pointer;
+}
+.bookbtn button{
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+
+}

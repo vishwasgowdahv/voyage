@@ -1,0 +1,45 @@
+.heading h1{
+    font-size: 3.5em;
+    font-weight: 900;
+    text-align: center;
+    font-family: titan;
+    padding: 90px 0px 50px 0px;
+}
+
+
+
+
+.con{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+.desc h5{
+    font-size: 17px;
+    text-align: center;
+}
+.contents{
+    padding: 0px 0px 60px 0px;
+    font-family: nunito;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    justify-content: center;
+}
+.sticker img{
+    padding: 20px 0px;
+    height: 120px;
+    width: 120px;
+    /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 875px) {
+    .heading h1{
+        font-size: 2.5em;
+    }
+    .con{
+        padding: 0px;
+    }
+    }

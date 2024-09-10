@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #38312F;
+    
+}
+@font-face {
+    font-family: clash;
+    src: url('src/assets/fonts/clash.ttf');
+}
+@font-face {
+    font-family: quilon;
+    src: url('src/assets/fonts/Quilon.ttf');
+}
+@font-face {
+    font-family: cabinet;
+    src: url('src/assets/fonts/CabinetGrotesk-Variable.ttf');
+}
+@font-face {
+    font-family: titan;
+    src: url('src/assets/fonts/TitanOne-Regular.ttf');
+}
+@font-face {
+    font-family: nunito;
+    src: url('src/assets/fonts/Nunito-VariableFont_wght.ttf');
+}
+
