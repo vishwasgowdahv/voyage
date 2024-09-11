@@ -28,7 +28,20 @@ font-family: titan;
 .list .top{
     display: flex;
     justify-content: center;
+
 }
+.sliders{
+    display: flex;
+    justify-content: center;
+}
+.list img{
+    border-radius: 10px;
+    height: 230px;
+    width: 310px;
+    object-fit: cover;
+    margin: auto;
+}
+
 .list .top img{
     border-radius: 10px;
     height: 230px;
@@ -36,7 +49,7 @@ font-family: titan;
     object-fit: cover;
 }
 .bottom{
-   padding: 0px 10px;
+   padding: 20px 10px 0px 10px;
 }
 .bottom .badge{
     padding: 8px 5px;
