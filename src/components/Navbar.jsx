@@ -18,7 +18,7 @@ export default function Navbar() {
     <div id="mobmenu" className={styles.mobnav}>
 
     <div className={styles.mobleft}>
-            <h1>VOYAGE</h1>
+            <h1>V<span><img src="assets/images/shipstearingwhite.svg" alt="" /></span>YAGE</h1>
             <div onClick={handlemobmenuclick} className={styles.mobmenu}>
             <img src="assets/images/close.svg" alt="" />
           </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
       <nav id="nav">
         <div className={styles.left}>
             {/* <img src="assets/images/logo.png" alt="" /> */}
-            <h1>VOYAGE</h1>
+            <h1>V<span><img src="assets/images/shipstearing.svg" alt="" /></span>YAGE</h1>
         </div>
         <div className={styles.right}>
         <div onClick={handlemenuclick} className={styles.menu}>

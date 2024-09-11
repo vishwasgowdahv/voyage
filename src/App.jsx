@@ -1,8 +1,7 @@
 import './App.css'
-import Features from './components/Features'
+
+import HomePage from './components/HomePage'
 import Footer from './components/Footer'
-import Hero from './components/Hero'
-import Listings from './components/Listings'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -10,9 +9,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Hero/>
-      <Listings/>
-      <Features/>
+      <HomePage/>
       <Footer/>
     </>
   )

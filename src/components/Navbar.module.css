@@ -11,6 +11,14 @@ nav{
     /* background-color: gray; */
     padding: 20px;
     color: #ff4500;
+    cursor: pointer;
+}
+.left h1 span img{
+    padding: 0px 0px 4px 0px;
+    vertical-align: middle;
+    /* background-color: #38312F; */
+    height: 35px;
+    width: 35px;
 }
 .right{
     align-content: center;
@@ -97,6 +105,13 @@ color: white;
 .mobleft h1{
     color: #ff4500;
     font-size: 40px;
+}
+.mobleft h1 span img{
+    padding: 0px 0px 4px 0px;
+    vertical-align: middle;
+    /* background-color: #38312F; */
+    height: 35px;
+    width: 35px;
 }
 .mobright{
     line-height: 100px;
