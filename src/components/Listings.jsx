@@ -33,7 +33,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>HAMPI</div>
+                <div className={styles.header}><h5>HAMPI</h5></div>
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
@@ -67,7 +67,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>GOKARNA</div>
+                <div className={styles.header}><h5>GOKARNA</h5></div>
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
@@ -104,7 +104,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>CHIKKAMANGALURU</div>
+                <div className={styles.header}><h5>CHIKKAMANGALURU</h5></div>
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
@@ -143,7 +143,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>COORG</div>
+                <div className={styles.header}><h5>COORG</h5></div>
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
@@ -181,7 +181,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>MYSORE</div>
+                <div className={styles.header}><h5>MYSORE</h5></div>
                 {/* <div className={styles.desc}>Witness the Marvel Architectures of Vijayanaga Empires</div> */}
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
@@ -216,7 +216,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>DANDELI</div>
+                <div className={styles.header}><h5>DANDELI</h5></div>
                 {/* <div className={styles.desc}>Witness the Marvel Architectures of Vijayanaga Empires</div> */}
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
@@ -257,7 +257,7 @@ export default function Listings() {
                 <div className={styles.badge}>
                     <h4>Bagpacking</h4>
                 </div>
-                <div className={styles.header}>UDUPI</div>
+                <div className={styles.header}><h5>UDUPI</h5></div>
                 {/* <div className={styles.desc}>Witness the Marvel Architectures of Vijayanaga Empires</div> */}
                 <div className={styles.info}>
                 <div className={styles.duration}>2 Days 1 Night</div>
