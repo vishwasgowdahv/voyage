@@ -9,7 +9,7 @@ export default function Footer() {
         <div className={styles.div1}>
         <div className={styles.first}>
             <h1>VOYAGE <span>®</span></h1>
-            <h5>© All Rights Reserved</h5>
+            <h5>©2024 VOYAGE. All Rights Reserved</h5>
         </div>
         </div>
         <div className={styles.div2}>

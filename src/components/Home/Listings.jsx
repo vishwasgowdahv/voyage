@@ -3,6 +3,8 @@ import styles from './Listings.module.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
+
 
 export default function Listings() {
 
@@ -39,8 +41,8 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.details}><Link className={styles.link} to='trips/hampi'>View Details &gt;&gt;</Link></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>
@@ -74,7 +76,7 @@ export default function Listings() {
                 </div>
                 <div className={styles.btns}>
                 <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>
@@ -111,7 +113,7 @@ export default function Listings() {
                 </div>
                 <div className={styles.btns}>
                 <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>
@@ -150,7 +152,7 @@ export default function Listings() {
                 </div>
                 <div className={styles.btns}>
                 <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>
@@ -189,7 +191,7 @@ export default function Listings() {
                 </div>
                 <div className={styles.btns}>
                 <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>
@@ -224,7 +226,7 @@ export default function Listings() {
                 </div>
                 <div className={styles.btns}>
                 <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>
@@ -265,7 +267,7 @@ export default function Listings() {
                 </div>
                 <div className={styles.btns}>
                 <div className={styles.details}>View Details &gt;&gt;</div>
-                <div className={styles.bookbtn}><button>Book Now</button></div>
+                <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
         </div>

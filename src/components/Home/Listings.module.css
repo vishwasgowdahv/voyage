@@ -98,19 +98,33 @@ font-family: titan;
     color: orangered;
     cursor: pointer;
 }
+.link{
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+}
 .details:hover{
     transition: all ease 0.2s;
     scale: 1.1;
 }
 .bookbtn button{
-    font-size: 15px;
+    /* font-size: 15px;
     background-color: orangered;
     color: white;
     cursor: pointer;
     padding: 5px;
-    border-radius: 6px;
+    border-radius: 6px; */
     border: none;
 
+}
+.bookbtnlink{
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: orangered;
+    color: white;
 }
 .bookbtn button:hover{
     transition: all ease 0.2s;

@@ -38,7 +38,7 @@ nav{
     font-weight: 100;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
+    /* cursor: pointer; */
     
     /* z-index: 1; */
 }
@@ -48,7 +48,7 @@ nav{
     width: 30px;
     padding: 20px 30px;
 }
-.list li::after{
+.link::after{
     content: "";
     height: 130%;
     width: 130%;
@@ -61,11 +61,17 @@ nav{
     color: white;
     z-index: -1;
 }
-.list li:hover{
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.link:hover{
+    
     color: white;
     z-index: 1;
-    }
-.list li:hover::after{
+}
+
+.link:hover::after{
 top:-5px;
 color: white;
 }
@@ -123,12 +129,19 @@ color: white;
     text-align: end;
         font-size: 70px;
         list-style: none;
-        cursor: pointer;
 }
-.moblist li:hover{
-color: #ff4500;
+.moblink{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 
 }
+.moblink:hover{
+    color: #ff4500;
+
+}
+
+
 
 @media only screen and (max-width: 875px) {
     

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Navbar.module.css'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
@@ -10,6 +11,10 @@ export default function Navbar() {
     
   }
   function handlemobmenuclick(){
+    let d=document.getElementById('mobmenu');
+    d.style.top='-100vh';
+  }
+  function handlemoblink(){
     let d=document.getElementById('mobmenu');
     d.style.top='-100vh';
   }
@@ -26,10 +31,10 @@ export default function Navbar() {
         <div className={styles.mobright}>
        
           <div id="list" className={styles.moblist}>
-            <li>HOME</li>
-            <li>TRIPS</li>
-            <li>CONTACT</li>
-            <li>ABOUT</li>
+          <li><Link onClick={handlemoblink} className={styles.moblink} to='/voyage/'>HOME</Link></li>
+            <li><Link onClick={handlemoblink} className={styles.moblink} to='trips'>TRIPS</Link></li>
+            <li><Link onClick={handlemoblink} className={styles.moblink} to='contact'>CONTACT</Link></li>
+            <li><Link onClick={handlemoblink} className={styles.moblink} to='about'>ABOUT</Link></li>
           </div>
          
         </div>
@@ -58,10 +63,10 @@ export default function Navbar() {
             <img src="assets/images/menu.png" alt="" />
           </div>
           <div id="list" className={styles.list}>
-            <li>HOME</li>
-            <li>TRIPS</li>
-            <li>CONTACT</li>
-            <li>ABOUT</li>
+          <li><Link className={styles.link} to='/voyage/'>HOME</Link></li>
+            <li><Link className={styles.link} to='trips'>TRIPS</Link></li>
+            <li><Link className={styles.link} to='contact'>CONTACT</Link></li>
+            <li><Link className={styles.link} to='about'>ABOUT</Link></li>
           </div>
          
         </div>

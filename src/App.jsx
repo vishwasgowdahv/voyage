@@ -1,18 +1,17 @@
-import './App.css'
+import "./App.css";
 
-import HomePage from './components/HomePage'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-
+import HomePage from "./components/Home/HomePage";
+import Footer from "./components/Home/Footer";
+import Navbar from "./components/Home/Navbar";
+import { Outlet } from "react-router-dom";
 function App() {
-
   return (
     <>
-      <Navbar/>
-      <HomePage/>
-      <Footer/>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
