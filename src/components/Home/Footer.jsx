@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './Footer.module.css'
-
+import instagram from "/assets/images/instagram.svg";
+import twitter from "/assets/images/twitter.svg";
+import youtube from "/assets/images/youtube.svg";
+import linkedin from "/assets/images/linkedin.svg";
 export default function Footer() {
   return (
     <>
@@ -29,10 +32,10 @@ export default function Footer() {
             <h1>CONNECT WITH US</h1>
             </div>
            <div className={styles.lists}>
-          <img src="assets/images/instagram.svg" alt="" />
-          <img src="assets/images/twitter.svg" alt="" />
-          <img src="assets/images/youtube.svg" alt="" />
-          <img src="assets/images/linkedin.svg" alt="" />
+          <img src={instagram} alt="" />
+          <img src={twitter} alt="" />
+          <img src={youtube} alt="" />
+          <img src={linkedin} alt="" />
            </div>
         </div>
         </div>

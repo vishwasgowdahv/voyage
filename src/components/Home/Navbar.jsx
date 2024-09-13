@@ -1,6 +1,10 @@
 import React from "react";
 import styles from './Navbar.module.css'
 import { Link } from "react-router-dom";
+import logo from "/assets/images/shipstearing.svg"
+import moblogo from "/assets/images/shipstearingwhite.svg"
+import closesvg from "/assets/images/close.svg";
+import mobmenu from "/assets/images/menu.png";
 
 export default function Navbar() {
 
@@ -23,9 +27,9 @@ export default function Navbar() {
     <div id="mobmenu" className={styles.mobnav}>
 
     <div className={styles.mobleft}>
-    <Link onClick={handlemoblink} className={styles.moblogolink} to='/voyage/'>  <h1>V<span><img src="assets/images/shipstearingwhite.svg" alt="" /></span>YAGE</h1></Link>
+    <Link onClick={handlemoblink} className={styles.moblogolink} to='/voyage/'>  <h1>V<span><img src={moblogo}alt="" /></span>YAGE</h1></Link>
             <div onClick={handlemobmenuclick} className={styles.mobmenu}>
-            <img src="assets/images/close.svg" alt="" />
+            <img src={closesvg} alt="" />
           </div>
         </div>
         <div className={styles.mobright}>
@@ -56,11 +60,11 @@ export default function Navbar() {
       <nav id="nav">
         <div className={styles.left}>
             {/* <img src="assets/images/logo.png" alt="" /> */}
-           <Link className={styles.logolink} to='/voyage/'> <h1>V<span><img src="assets/images/shipstearing.svg" alt="" /></span>YAGE</h1></Link>
+           <Link className={styles.logolink} to='/voyage/'> <h1>V<span><img src={logo} alt="" /></span>YAGE</h1></Link>
         </div>
         <div className={styles.right}>
         <div onClick={handlemenuclick} className={styles.menu}>
-            <img src="assets/images/menu.png" alt="" />
+            <img src={mobmenu} alt="" />
           </div>
           <div id="list" className={styles.list}>
           <li><Link className={styles.link} to='/voyage/'>HOME</Link></li>
