@@ -75,7 +75,7 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
+                 <div className={styles.details}><Link className={styles.link} to='trips/gokarna'>View Details &gt;&gt;</Link></div>
                 <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
+                 <div className={styles.details}><Link className={styles.link} to='trips/chikkmangaluru'>View Details &gt;&gt;</Link></div>
                 <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
@@ -151,7 +151,7 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
+                 <div className={styles.details}><Link className={styles.link} to='trips/coorg'>View Details &gt;&gt;</Link></div>
                 <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
@@ -190,7 +190,7 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
+                 <div className={styles.details}><Link className={styles.link} to='trips/mysore'>View Details &gt;&gt;</Link></div>
                 <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
@@ -225,7 +225,7 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
+                 <div className={styles.details}><Link className={styles.link} to='trips/dandeli'>View Details &gt;&gt;</Link></div>
                 <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>
@@ -266,7 +266,7 @@ export default function Listings() {
                 <div className={styles.cost}><h4>₹ 2,999 </h4><h5> ₹ 4,999</h5></div>
                 </div>
                 <div className={styles.btns}>
-                <div className={styles.details}>View Details &gt;&gt;</div>
+                 <div className={styles.details}><Link className={styles.link} to='trips/udupi'>View Details &gt;&gt;</Link></div>
                 <div className={styles.bookbtn}><button><Link to='book' className={styles.bookbtnlink} >Book Now</Link></button></div>
                 </div>
             </div>

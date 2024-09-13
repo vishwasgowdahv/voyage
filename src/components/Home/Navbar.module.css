@@ -5,6 +5,9 @@ nav{
     font-family: titan;
     /* background-color: green; */
 }
+.left .logolink{
+    text-decoration: none;
+}
 .left h1{
     font-size: 40px;
     font-weight: 100;
@@ -102,6 +105,9 @@ color: white;
     height: 25px;  
     width: 25px;
     padding: 7px 0px;
+}
+.moblogolink{
+    text-decoration: none;
 }
 .mobleft{
     display: flex;
