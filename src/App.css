@@ -20,6 +20,14 @@
     font-family: titan;
     src: url('/assets/fonts/TitanOne-Regular.ttf');
 }
+/* @font-face {
+    font-family: titan;
+    src: url('/assets/fonts/Gilroy-Heavy.ttf');
+} */
+@font-face {
+    font-family: titanregular;
+    src: url('/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf');
+}
 @font-face {
     font-family: nunito;
     src: url('/assets/fonts/Nunito-VariableFont_wght.ttf');

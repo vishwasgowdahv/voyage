@@ -29,6 +29,7 @@ const router = createBrowserRouter(
       <Route path="contact" element={<Contact />} />
       <Route path="trips" element={<Trips />} />
       <Route path="trips/hampi" element={<Hampi />} />
+      <Route path="trips/hampi/book" element={<Book />} />
       <Route path="trips/gokarna" element={<Gokarna />} />
       <Route path="trips/chikkmangaluru" element={<Chikkmangaluru />} />
       <Route path="trips/coorg" element={<Coorg />} />

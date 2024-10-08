@@ -8,6 +8,7 @@
     position: relative;
 }
 .left{
+    /* background-color: aliceblue; */
     width: 50%;
 }
 
@@ -75,7 +76,8 @@
         width: 100%;
     }
      .left h4{
-        font-size: 40px;
+        font-family: titan;
+        font-size: 50px;
         text-align: center;
      }
      .right .img1{

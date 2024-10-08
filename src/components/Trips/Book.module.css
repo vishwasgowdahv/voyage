@@ -1,0 +1,31 @@
+.heading{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-family: titan;
+    font-weight: 900;
+}
+.subheading{
+    font-family: nunito;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    padding: 20px;   
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.images img{
+    padding: 0px 60px;
+    height: 100px;
+    width: 100px;
+}
+.images h4{
+    font-family: nunito;
+    text-align: center;
+    padding: 30px;  
+}
